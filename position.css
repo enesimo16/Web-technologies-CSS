@@ -1,0 +1,45 @@
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    color: blueviolet;
+    font-size: larger;
+}
+
+h3 {
+    position: sticky;
+    background-color: red;
+    top: 100px;
+    z-index: 1;
+}
+
+.box-model {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 5px solid;
+    margin: 10px;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+
+    position: relative;
+}
+
+.content {
+    box-sizing: content-box;
+}
+
+.image-block {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: auto;
+}
+
+.image-block p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: antiquewhite;
+
+}
