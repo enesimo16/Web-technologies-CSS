@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10;
+    flex-wrap: wrap;
+
+    height: 500px;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+.box-item {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    min-width: 200px;
+}
+
+.box-item:first-child {
+    flex: 3;
+}
+
+.box-item:last-child {
+    flex: 3;
+}
