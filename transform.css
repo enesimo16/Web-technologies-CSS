@@ -1,0 +1,20 @@
+.btn {
+    margin: 10px;
+    padding: 25px;
+    background-color: blueviolet;
+    font-size: 20px;
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    border-color: brown;
+
+
+}
+
+.a {
+    transform: translate(300px, 300px);
+}
+
+.b {
+    transform: rotate(45deg);
+}
